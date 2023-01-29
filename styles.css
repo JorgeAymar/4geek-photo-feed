@@ -1,0 +1,57 @@
+body{
+    background-color: grey ;
+    width: 500px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.photofeed {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: grey ;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flex-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 10px 0px 10px;
+}
+
+.head-tittle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.head-mark {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+
+.footer {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 10px 10px 10px;
+}
+
+.flex-container img {
+    width: 500px;
+    height: 350px;
+    background-color: white;
+}
